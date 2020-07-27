@@ -1,5 +1,6 @@
 {
     "name": "testvendor/taks1",
+    "description": "task1",
     "type": "library",
     "authors": [
         {
