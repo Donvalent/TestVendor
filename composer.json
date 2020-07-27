@@ -1,0 +1,13 @@
+{
+    "name": "testvendor/taks1",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Valentin Paschenko",
+            "email": "valentinio193@gmail.com"
+        }
+    ],
+    "require": {
+	"php": "^7.2"
+    }
+}
