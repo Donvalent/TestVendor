@@ -4,6 +4,8 @@ namespace MyENV;
 
 require '../vendor/autoload.php';
 
+namespace MyENV;
+
 class MyENV
 {
     /*
