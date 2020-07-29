@@ -2,8 +2,6 @@
 
 namespace MyENV;
 
-require '../vendor/autoload.php';
-
 use Dotenv\Dotenv;
 
 class MyENV
@@ -16,7 +14,7 @@ class MyENV
      */
     public static function get(string $env)
     {
-        $dotenv = Dotenv::createImmutable(__DIR__);
+        $dotenv = Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
         $dotenv->load();
         return array_key_exists($env, $_ENV) ? $_ENV[$env] : 'ERROR : Env param is missing';
     }
